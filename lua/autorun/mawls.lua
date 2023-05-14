@@ -23,7 +23,7 @@ timer.Simple(0.5, function()
     ["gm_metro_nekrasovskaya_line_v5"] = 6, ["gm_metro_nsk_line_2_v5"] = 4, ["gm_metro_platform_doors_v1"] = 4, ["gm_metro_ruralline_v29"] = 4, ["gm_metro_ruralline_v29_snow"] = 4,
     ["gm_metro_surfacemetro_w"] = 4, ["gm_metrostroi_b50"] = 5, ["gm_mus_crimson_line_a"] = 3, ["gm_mus_crimson_line_b_n"] = 3, ["gm_mus_loopline"] = 5, ["gm_mus_neoorange_d"] = 3, ["gm_mus_neoorange_e"] = 3,
     ["gm_mus_orange_metro_h"] = 3, ["gm_mustox_neocrimson_line_a"] = 4, ["gm_smr_1987"] = 4, ["gm_smr_first_line_v3"] = 4, ["gm_metro_pervomayskaya_line"] = 4, ["gm_metro_blue_red_lines_v1"] = 6, ["gm_metro_u6"] = 4, 
-    ["gm_metro_u5"] = 4, ["gm_metro_u55"] = 4, ["gm_metro_ndr_val_v2"] = 4, ["gm_metro_virus"] = 6, ["gm_metro_krl_v1"] = 8, ["gm_metro_sunnytown_v1"] = 4} //Add new maps inside {}
+    ["gm_metro_u5"] = 4, ["gm_metro_u55"] = 4, ["gm_metro_ndr_val_v2"] = 4, ["gm_metro_virus"] = 6, ["gm_metro_krl_v1"] = 8, ["gm_metro_sunnytown_v1"] = 4, ["gm_metro_chapaevskaya_line_a"] = 5} //Add new maps inside {}
     if !WagonCountTbl[map] then return end
     local maxWagonCount = WagonCountTbl[map]
     print("Found "..(map or "invalid map")..", Setting wagon limit to "..WagonCountTbl[map])
