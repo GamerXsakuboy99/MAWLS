@@ -18,6 +18,7 @@ timer.Simple(0.5, function()
   MsgC(Color(120, 220, 100, 255), "- GamerzXsakuzboy99")
   local map = game.GetMap() or ""
 
+  --Add new maps inside {}
   local WagonCountTbl = {
     ["gm_dnipro"] = 5,
     ["gm_jar_pll_remastered_v12"] = 4,
@@ -54,7 +55,7 @@ timer.Simple(0.5, function()
     ["gm_metro_surfacemetro_w"] = 4,
     ["gm_metro_krl_v1"] = 8,
     ["gm_metro_prizmaaline_v3"] = 4,
-    ["gm_metro_crossline_c4"] = 6, --Add new maps inside {}
+    ["gm_metro_crossline_c4"] = 6,
     ["gm_metro_crossline_r199h"] = 6,
     ["gm_metro_crossline_n4a"] = 6
   }
